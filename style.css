@@ -1,0 +1,39 @@
+
+*{
+	font-family: Arial;
+}
+body{
+	
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+body:not(#grid-container){
+	background-color: #EED4FF;
+}
+#grid-container{
+	margin: auto;
+	display: grid;
+	/* position: relative; */
+	border: 1px solid black ;
+	width: 500px;
+	height: 500px;
+}
+
+.button{
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	font-size: 15px;
+	border: none;
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+}
+
+.black{
+	background-color : black;
+}
+
+
+
